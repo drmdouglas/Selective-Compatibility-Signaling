@@ -1,4 +1,5 @@
 To run: python mdec_analysis.py --main --market all --workers 32
+
 Make sure you have python, pandas, numpy and the last number is the number of cores your computer has. It runs about 45 mins on 1 core and 5 mins on 32.
 One of the result files is too large to put on GitHub so you will have to run it to create it again.
 
