@@ -1,0 +1,327 @@
+{
+  "version": "3.15-vacancy-repair",
+  "seed": 20261011,
+  "dollar_year": 2026,
+  "irs_rate": 0.67,
+  "irs_year": 2024,
+  "menu_scale": 1.0,
+  "privacy_scope": "output_only_compatibility_and_tier",
+  "quality_mixtures": {
+    "student": {
+      "weights": [
+        0.15,
+        0.5,
+        0.35
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "noise_sd": 0.015
+    },
+    "rn": {
+      "weights": [
+        0.2,
+        0.55,
+        0.25
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "noise_sd": 0.015
+    },
+    "professor": {
+      "weights": [
+        0.25,
+        0.55,
+        0.2
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "noise_sd": 0.015
+    },
+    "ceo": {
+      "weights": [
+        0.3,
+        0.55,
+        0.15
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "noise_sd": 0.015
+    }
+  },
+  "quality_calibration_report": {
+    "student": {
+      "mixture_weights": [
+        0.15,
+        0.5,
+        0.35
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "predicted_conditional": [
+        0.1526,
+        0.49875,
+        0.34865
+      ],
+      "predicted_overall": [
+        0.2525932,
+        0.43989750000000005,
+        0.30750930000000004
+      ],
+      "target_conditional": [
+        0.15,
+        0.5,
+        0.35
+      ],
+      "target_scope": "mandatory_eligible_applicants",
+      "within_tolerance": true
+    },
+    "rn": {
+      "mixture_weights": [
+        0.2,
+        0.55,
+        0.25
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "predicted_conditional": [
+        0.2041,
+        0.54455,
+        0.25135
+      ],
+      "predicted_overall": [
+        0.46961224,
+        0.36288812,
+        0.16749964
+      ],
+      "target_conditional": [
+        0.2,
+        0.55,
+        0.25
+      ],
+      "target_scope": "mandatory_eligible_applicants",
+      "within_tolerance": true
+    },
+    "professor": {
+      "mixture_weights": [
+        0.25,
+        0.55,
+        0.2
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "predicted_conditional": [
+        0.2501,
+        0.5391,
+        0.2108
+      ],
+      "predicted_overall": [
+        0.3385882,
+        0.4754862,
+        0.1859256
+      ],
+      "target_conditional": [
+        0.25,
+        0.55,
+        0.2
+      ],
+      "target_scope": "mandatory_eligible_applicants",
+      "within_tolerance": true
+    },
+    "ceo": {
+      "mixture_weights": [
+        0.3,
+        0.55,
+        0.15
+      ],
+      "components": [
+        {
+          "lo": 0.05,
+          "hi": 0.69,
+          "a": 5.0,
+          "b": 2.5
+        },
+        {
+          "lo": 0.71,
+          "hi": 0.89,
+          "a": 2.2,
+          "b": 2.2
+        },
+        {
+          "lo": 0.91,
+          "hi": 0.995,
+          "a": 2.5,
+          "b": 2.0
+        }
+      ],
+      "predicted_conditional": [
+        0.29555,
+        0.545,
+        0.15945
+      ],
+      "predicted_overall": [
+        0.464618,
+        0.4142,
+        0.12118200000000001
+      ],
+      "target_conditional": [
+        0.3,
+        0.55,
+        0.15
+      ],
+      "target_scope": "mandatory_eligible_applicants",
+      "within_tolerance": true
+    }
+  },
+  "quality_calibration_passed": true,
+  "replications": 40,
+  "scale": 1.0,
+  "strategic_prevalence": 0.0,
+  "market_selection": "all",
+  "max_primary_mcse": 0.003547700993063299,
+  "mcse_target": 0.005,
+  "mcse_converged": true,
+  "max_total_reps": 500,
+  "privacy_population_dyads": 5863303,
+  "privacy_sample_dyads": 100000,
+  "validation_errors": [],
+  "pilot_calibration_required": false,
+  "output_files": [
+    "raw",
+    "dyads",
+    "offers",
+    "applicants",
+    "vacancies",
+    "privacy",
+    "diagnostics",
+    "calibration",
+    "success_hierarchy",
+    "summary",
+    "contrasts"
+  ]
+}

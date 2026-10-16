@@ -1,0 +1,5 @@
+market,contrast,mean_difference,one_sided_95_lcb,noninferior_margin,noninferior
+student,mdec_locked-traditional,0.12774999999999997,0.12478341063510029,0.02,True
+rn,mdec_locked-traditional,0.0,0.0,0.02,True
+professor,mdec_locked-traditional,0.041166666666666664,0.035330698533077534,0.02,True
+ceo,mdec_locked-traditional,0.0035000000000000005,0.0005227585743829487,0.02,True
